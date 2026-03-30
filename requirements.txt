@@ -1,0 +1,16 @@
+playwright==1.42.0  
+requests
+beautifulsoup4
+qdrant-client 
+sentence-transformers 
+tqdm
+FlagEmbedding
+transformers==4.44.2
+rank-bm25
+google-genai
+ollama
+groq
+uvicorn
+fastapi 
+torch
+react-markdown

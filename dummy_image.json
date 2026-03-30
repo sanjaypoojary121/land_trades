@@ -1,0 +1,154 @@
+{
+  "projects": {
+    "Land Trades Project 1": [
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/001-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 1/typecal-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 1",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/002-floor-plan-3d-floor-plan-4bhk-unit.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 1/extingroad-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 1",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": " Land Trades Project 1 Gallery 1",
+        "url": "/project_images/Land Trades Project 1/006-gallery-gallery-krishna-kuteera-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 1/gallery/gallery1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 1",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Land Trades Project 1 Gallery 2",
+        "url": "/project_images/Land Trades Project 1/007-gallery-gallery-krishna-kuteera-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 1/gallery/gallery2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 1",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Land Trades Project 2": [
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/001-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 2/typecal-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 2",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/002-floor-plan-3d-floor-plan-4bhk-unit.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 2/extingroad-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 2",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": " Land Trades Project 2 Gallery 1",
+        "url": "/project_images/Land Trades Project 1/006-gallery-gallery-krishna-kuteera-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 2/gallery/gallery1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 2",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Land Trades Project 2 Gallery 2",
+        "url": "/project_images/Land Trades Project 1/007-gallery-gallery-krishna-kuteera-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 2/gallery/gallery2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 2",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Land Trades Project 3": [
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/001-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 3/typecal-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 3",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/002-floor-plan-3d-floor-plan-4bhk-unit.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 3/extingroad-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 3",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": " Land Trades Project 3 Gallery 1",
+        "url": "/project_images/Land Trades Project 1/006-gallery-gallery-krishna-kuteera-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 3/gallery/gallery1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 3",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Land Trades Project 3 Gallery 2",
+        "url": "/project_images/Land Trades Project 1/007-gallery-gallery-krishna-kuteera-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 3/gallery/gallery2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 3",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ]
+  }
+}

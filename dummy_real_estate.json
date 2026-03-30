@@ -1,0 +1,228 @@
+{
+  "Land Trades Project 1": {
+    "name": "Land Trades Project 1",
+    "type": "Residential Premium Apartment",
+    "category": "Residential",
+    "location": "Bendoorwell, Mangalore",
+    "micro_location": "Near main road and premium residential zone",
+    "facing": "City View",
+    "project_status": "Ongoing",
+    "launch_year": "2026",
+    "possession_year": "2029",
+    "developer": "Land Trades Builders & Developers",
+    "rera_id": "PRM/KA/RERA/1257/334/PR/2026/010001",
+    "project_area": "1.80 Acres",
+    "floors": "G+28",
+    "total_units": "132",
+    "unit_types": [
+      "2 BHK - 1180 sqft",
+      "3 BHK - 1560 sqft",
+      "4 BHK - 2140 sqft"
+    ],
+    "starting_price": "₹68 Lakhs",
+    "amenities": [
+      "Swimming Pool",
+      "Kids Pool",
+      "Clubhouse",
+      "Fully Equipped Gym",
+      "Jogging Track",
+      "Children’s Play Area",
+      "Indoor Games",
+      "Banquet Hall",
+      "Yoga Deck",
+      "Senior Citizen Corner",
+      "Landscaped Garden",
+      "CCTV Security",
+      "Intercom",
+      "24x7 Water Supply",
+      "Power Backup"
+    ],
+    "specifications": [
+      "Vitrified Flooring",
+      "Branded CP Fittings",
+      "Granite Counter Kitchen",
+      "Aluminium Sliding Windows",
+      "Teak Finish Main Door",
+      "Fire Safety System",
+      "High-Speed Elevators",
+      "Rainwater Harvesting"
+    ],
+    "connectivity": [
+      "1.5 km to City Centre",
+      "2.2 km to Railway Station",
+      "3.5 km to Forum Mall",
+      "12.0 km to Airport"
+    ],
+    "floor_plans": [
+      "2BHK Floor Plan A",
+      "3BHK Floor Plan B",
+      "4BHK Floor Plan C"
+    ],
+    "gallery_tags": [
+      "Exterior View 1",
+      "Exterior View 2",
+      "Clubhouse View",
+      "Pool View"
+    ],
+    "investment_profile": [
+      "Growth Rate: 10% per year",
+      "Rental Yield: 4.5% per year",
+      "5 Year ROI: 61.05%",
+      "Estimated Gain After 5 Years on ₹50,00,000: ₹30,52,550"
+    ],
+    "loan_details": [
+      "Loan Available: Yes",
+      "Approved Banks: SBI, HDFC, ICICI, Axis",
+      "Max Loan: 80%",
+      "2 BHK Example Loan: ₹64,00,000",
+      "Tenure: 20 years",
+      "Interest Rate: 8.5%",
+      "Correct EMI: ₹55,541 per month",
+      "Loan Fully Paid In: 20 years"
+    ],
+    "bank_interest": [
+      "SBI: 8.45%, processing fee 0.25%",
+      "HDFC: 8.60%, processing fee 0.30%",
+      "ICICI: 8.55%, processing fee 0.35%",
+      "Axis: 8.70%, processing fee 0.30%"
+    ],
+    "emi_scenarios": [
+      "2 BHK: property price ₹80,00,000, loan ₹64,00,000, tenure 20 years, interest 8.5%, EMI ₹55,541",
+      "3 BHK: property price ₹1,05,00,000, loan ₹84,00,000, tenure 25 years, interest 8.6%, EMI about ₹68,206"
+    ],
+    "year-wise_loan_status": [
+      "Year 1: principal paid ₹1,27,375, interest paid ₹5,39,114, remaining balance ₹62,72,625",
+      "Year 2: principal paid ₹1,38,633, interest paid ₹5,27,855, remaining balance ₹61,33,992",
+      "Year 3: principal paid ₹1,50,887, interest paid ₹5,15,601, remaining balance ₹59,83,105",
+      "Year 4: principal paid ₹1,64,224, interest paid ₹5,02,264, remaining balance ₹58,18,880",
+      "Year 5: principal paid ₹1,78,740, interest paid ₹4,87,748, remaining balance ₹56,40,140"
+    ],
+    "loan_summary": [
+      "Original Loan Amount: ₹64,00,000",
+      "Correct EMI: ₹55,541/month",
+      "Loan Tenure: 20 years",
+      "After 5 years, total principal repaid: ₹7,59,859",
+      "After 5 years, total interest paid: ₹25,72,582",
+      "Outstanding balance after 5 years: ₹56,40,140",
+      "Loan will be fully repaid after 20 years if EMIs are paid regularly"
+    ],
+    "roi_details": [
+      "Example Investment: ₹50,00,000",
+      "Annual Growth Rate: 10%",
+      "Investment Period: 5 years",
+      "Future Value After 5 Years: ₹80,52,550",
+      "Estimated Profit After 5 Years: ₹30,52,550",
+      "ROI After 5 Years: 61.05%",
+      "100% investment recovery time at 10% annual compounded growth: about 7.27 years",
+      "After about 7.27 years, the invested capital doubles; growth beyond that becomes profit over the original invested amount"
+    ],
+    "roi_5_year_table": [
+      "Year 1: value ₹55,00,000 | gain ₹5,00,000 | ROI 10.00%",
+      "Year 2: value ₹60,50,000 | gain ₹10,50,000 | ROI 21.00%",
+      "Year 3: value ₹66,55,000 | gain ₹16,55,000 | ROI 33.10%",
+      "Year 4: value ₹73,20,500 | gain ₹23,20,500 | ROI 46.41%",
+      "Year 5: value ₹80,52,550 | gain ₹30,52,550 | ROI 61.05%"
+    ],
+    "booking_process": [
+      "Select unit",
+      "Pay token amount ₹2 Lakhs",
+      "Submit KYC",
+      "Bank eligibility check",
+      "Sign agreement",
+      "Pay booking/down payment",
+      "Registration",
+      "Construction-linked payment plan"
+    ],
+    "faqs": [
+      "Is this good for investment? Yes, due to central location and strong growth.",
+      "Can NRIs buy? Yes.",
+      "Is loan available? Yes, from multiple banks."
+    ]
+  },
+  "Land Trades Project 2": {
+    "name": "Land Trades Project 2",
+    "type": "Commercial Office Space and Showroom Premise",
+    "category": "Commercial",
+    "location": "Hampankatta, Mangalore",
+    "project_status": "Ready to Occupy",
+    "floors": "G+10",
+    "available_space_types": [
+      "Office Spaces",
+      "Showroom Premise",
+      "Managed Offices"
+    ],
+    "area_options": [
+      "250 sqft",
+      "300 sqft",
+      "500 sqft",
+      "1200 sqft"
+    ],
+    "amenities": [
+      "Reception Lobby",
+      "Centralized Security",
+      "CCTV",
+      "100% Power Backup",
+      "Passenger Elevators",
+      "Visitor Parking",
+      "Cafeteria Zone",
+      "Fire Safety"
+    ],
+    "suitable_for": [
+      "Startups",
+      "CA Offices",
+      "Clinics",
+      "IT Firms",
+      "Small Agencies"
+    ],
+    "rental_model": [
+      "Monthly Rent Available",
+      "Lease Option Available"
+    ],
+    "average_rental_yield": [
+      "7% yearly"
+    ],
+    "commercial_highlights": [
+      "Prime business district",
+      "Strong footfall",
+      "Near bus routes",
+      "Near major banks"
+    ]
+  },
+  "Land Trades Project 3": {
+    "name": "Land Trades Project 3",
+    "type": "Sea-Facing Residential Apartment",
+    "category": "Residential",
+    "location": "Near Coastal Belt, Mangalore",
+    "project_status": "Ongoing",
+    "floors": "G+24",
+    "unit_types": [
+      "3 BHK - 1650 sqft",
+      "4 BHK - 2450 sqft"
+    ],
+    "amenities": [
+      "Infinity Pool",
+      "Sky Lounge",
+      "Sea View Deck",
+      "Gym",
+      "Banquet Space",
+      "Private Sit-out Areas",
+      "CCTV",
+      "Smart Access"
+    ],
+    "investment_profile": [
+      "High Appreciation Area",
+      "Good rental demand",
+      "Suitable for long-term capital growth"
+    ],
+    "loan_details": [
+      "Loan Available: Yes",
+      "Banks: SBI, HDFC"
+    ],
+    "gallery_tags": [
+      "Sea View Tower",
+      "Sunset Balcony View",
+      "Lobby View",
+      "Pool Deck View"
+    ]
+  }
+}

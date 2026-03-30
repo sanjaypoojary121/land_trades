@@ -1,0 +1,2748 @@
+{
+  "projects": {
+    "Land Trades Project 1": [
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/001-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 1/typecal-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 1",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/002-floor-plan-3d-floor-plan-4bhk-unit.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 1/extingroad-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 1",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": " Land Trades Project 1 Gallery 1",
+        "url": "/project_images/Land Trades Project 1/006-gallery-gallery-krishna-kuteera-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 1/gallery/gallery1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 1",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Land Trades Project 1 Gallery 2",
+        "url": "/project_images/Land Trades Project 1/007-gallery-gallery-krishna-kuteera-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 1/gallery/gallery2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 1",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Land Trades Project 2": [
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/001-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 2/typecal-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 2",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/002-floor-plan-3d-floor-plan-4bhk-unit.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 2/extingroad-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 2",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": " Land Trades Project 2 Gallery 1",
+        "url": "/project_images/Land Trades Project 1/006-gallery-gallery-krishna-kuteera-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 2/gallery/gallery1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 2",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Land Trades Project 2 Gallery 2",
+        "url": "/project_images/Land Trades Project 1/007-gallery-gallery-krishna-kuteera-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 2/gallery/gallery2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 2",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Land Trades Project 3": [
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/001-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 3/typecal-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 3",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Floor Plan",
+        "url": "/project_images/Land Trades Project 1/002-floor-plan-3d-floor-plan-4bhk-unit.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 3/extingroad-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Land Trades Project 3",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": " Land Trades Project 3 Gallery 1",
+        "url": "/project_images/Land Trades Project 1/006-gallery-gallery-krishna-kuteera-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 3/gallery/gallery1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 3",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Land Trades Project 3 Gallery 2",
+        "url": "/project_images/Land Trades Project 1/007-gallery-gallery-krishna-kuteera-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/Land Trades Project 3/gallery/gallery2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Land Trades Project 3",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Durga Mahal": [
+      {
+        "label": "Typical Floor Plan",
+        "url": "/project_images/durga-mahal/001-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/durga-mahal/typecal-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Durga Mahal",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Existing Road",
+        "url": "/project_images/durga-mahal/002-floor-plan-3d-floor-plan-existing-road.jpg",
+        "source_url": "https://landtrades.in/img/projects/durga-mahal/extingroad-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Durga Mahal",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "F1",
+        "url": "/project_images/durga-mahal/003-floor-plan-3d-floor-plan-f1.jpg",
+        "source_url": "https://landtrades.in/img/projects/durga-mahal/f1-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Durga Mahal",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "F2",
+        "url": "/project_images/durga-mahal/004-floor-plan-3d-floor-plan-f2.jpg",
+        "source_url": "https://landtrades.in/img/projects/durga-mahal/f2-floor.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Durga Mahal",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Durga Mahal Gallery 1",
+        "url": "/project_images/durga-mahal/005-gallery-gallery-durga-mahal-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/durga-mahal/gallery/gallery1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Durga Mahal",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Durga Mahal Gallery 2",
+        "url": "/project_images/durga-mahal/006-gallery-gallery-durga-mahal-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/durga-mahal/gallery/gallery2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Durga Mahal",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Expertise Enclave": [
+      {
+        "label": "First Floor Plan",
+        "url": "/project_images/expertise-enclave/001-floor-plan-3d-floor-plan-first-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/1.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "1st Floor Key Plan",
+        "url": "/project_images/expertise-enclave/002-floor-plan-3d-floor-plan-1st-floor-key-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/2.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "1st Floor Key Plan",
+        "url": "/project_images/expertise-enclave/003-floor-plan-3d-floor-plan-1st-floor-key-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/3.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "1st Floor Key Plan",
+        "url": "/project_images/expertise-enclave/004-floor-plan-3d-floor-plan-1st-floor-key-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/4.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Plan",
+        "url": "/project_images/expertise-enclave/005-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/5.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Key Plan",
+        "url": "/project_images/expertise-enclave/006-floor-plan-3d-floor-plan-typical-floor-key-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/6.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Key Plan",
+        "url": "/project_images/expertise-enclave/007-floor-plan-3d-floor-plan-typical-floor-key-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/7.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Key Plan",
+        "url": "/project_images/expertise-enclave/008-floor-plan-3d-floor-plan-typical-floor-key-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/8.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Plan",
+        "url": "/project_images/expertise-enclave/009-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/9.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Key Plan",
+        "url": "/project_images/expertise-enclave/010-floor-plan-3d-floor-plan-typical-floor-key-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/10.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Key Plan",
+        "url": "/project_images/expertise-enclave/011-floor-plan-3d-floor-plan-typical-floor-key-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/11.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Key Plan",
+        "url": "/project_images/expertise-enclave/012-floor-plan-3d-floor-plan-typical-floor-key-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/12.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "Expertise Enclave",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Expertise Enclave Gallery 1",
+        "url": "/project_images/expertise-enclave/013-gallery-gallery-expertise-enclave-gallery-1.jpeg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/gallery/gallery2.jpeg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Expertise Enclave",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Expertise Enclave Gallery 2",
+        "url": "/project_images/expertise-enclave/014-gallery-gallery-expertise-enclave-gallery-2.jpeg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/gallery/gallery3.jpeg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Expertise Enclave",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Expertise Enclave Gallery 3",
+        "url": "/project_images/expertise-enclave/015-gallery-gallery-expertise-enclave-gallery-3.jpeg",
+        "source_url": "https://landtrades.in/img/projects/expertise-enclave/gallery/gallery1.jpeg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "Expertise Enclave",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Altitude": [
+      {
+        "label": "Typical Unit Plan",
+        "url": "/project_images/altitude/001-floor-plan-typical-floor-plan-typical-unit-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/floorplans/4.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "altitude",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "BASEMENT FLOOR PLAN",
+        "url": "/project_images/altitude/002-floor-plan-3d-floor-plan-basement-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/floorplans/1.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "altitude",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "UPPER GROUND FLOOR PLAN",
+        "url": "/project_images/altitude/003-floor-plan-3d-floor-plan-upper-ground-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/floorplans/2.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "altitude",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "AMENITIES FLOOR PLAN",
+        "url": "/project_images/altitude/004-floor-plan-3d-floor-plan-amenities-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/floorplans/3.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "altitude",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Terrace Floor Plan",
+        "url": "/project_images/altitude/005-floor-plan-terrace-plan-terrace-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/floorplans/5.jpg",
+        "type": "floor_plan",
+        "category": "Terrace Plan",
+        "tags": [
+          "altitude",
+          "floor plan",
+          "terrace plan"
+        ]
+      },
+      {
+        "label": "Altitude Gallery 1",
+        "url": "/project_images/altitude/006-gallery-gallery-altitude-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/gallery/1-thumb.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altitude",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altitude Gallery 2",
+        "url": "/project_images/altitude/007-gallery-gallery-altitude-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/gallery/5-thumb.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altitude",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altitude Gallery 3",
+        "url": "/project_images/altitude/008-gallery-gallery-altitude-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/gallery/7-thumb.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altitude",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altitude Gallery 4",
+        "url": "/project_images/altitude/009-gallery-gallery-altitude-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/gallery/6-thumb.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altitude",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altitude Gallery 5",
+        "url": "/project_images/altitude/010-gallery-gallery-altitude-gallery-5.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/gallery/3-thumb.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altitude",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altitude Gallery 6",
+        "url": "/project_images/altitude/011-gallery-gallery-altitude-gallery-6.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/gallery/2-thumb.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altitude",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altitude Gallery 7",
+        "url": "/project_images/altitude/012-gallery-gallery-altitude-gallery-7.jpg",
+        "source_url": "https://landtrades.in/img/projects/altitude/gallery/4-thumb.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altitude",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Laxmi Govind": [
+      {
+        "label": "Typical Floor Plan",
+        "url": "/project_images/laxmi-govind/001-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/typical-floor-plan.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "laxmi govind",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "F1",
+        "url": "/project_images/laxmi-govind/002-floor-plan-3d-floor-plan-f1.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/F1-floor-plan.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "laxmi govind",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "F2",
+        "url": "/project_images/laxmi-govind/003-floor-plan-3d-floor-plan-f2.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/F2-floor-plan.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "laxmi govind",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "F3",
+        "url": "/project_images/laxmi-govind/004-floor-plan-3d-floor-plan-f3.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/F3-floor-plan.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "laxmi govind",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "F4",
+        "url": "/project_images/laxmi-govind/005-floor-plan-3d-floor-plan-f4.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/F4-floor-plan.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "laxmi govind",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "F5",
+        "url": "/project_images/laxmi-govind/006-floor-plan-3d-floor-plan-f5.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/F5-floor-plan.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "laxmi govind",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Laxmi Govind Gallery 1",
+        "url": "/project_images/laxmi-govind/007-gallery-gallery-laxmi-govind-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/gallery/1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "laxmi govind",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Laxmi Govind Gallery 2",
+        "url": "/project_images/laxmi-govind/008-gallery-gallery-laxmi-govind-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/gallery/2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "laxmi govind",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Laxmi Govind Gallery 3",
+        "url": "/project_images/laxmi-govind/009-gallery-gallery-laxmi-govind-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/gallery/3.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "laxmi govind",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Laxmi Govind Gallery 4",
+        "url": "/project_images/laxmi-govind/010-gallery-gallery-laxmi-govind-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/gallery/4.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "laxmi govind",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Laxmi Govind Gallery 5",
+        "url": "/project_images/laxmi-govind/011-gallery-gallery-laxmi-govind-gallery-5.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/gallery/5.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "laxmi govind",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Laxmi Govind Gallery 6",
+        "url": "/project_images/laxmi-govind/012-gallery-gallery-laxmi-govind-gallery-6.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/gallery/6.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "laxmi govind",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Krishna Kuteera": [
+      {
+        "label": "Typical Floor Plan",
+        "url": "/project_images/krishna-kuteera/001-floor-plan-3d-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/typical-floor-plan.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "krishna kuteera",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "4BHK UNIT",
+        "url": "/project_images/krishna-kuteera/002-floor-plan-3d-floor-plan-4bhk-unit.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/4-bhk-unit.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "krishna kuteera",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "3BHK UNIT",
+        "url": "/project_images/krishna-kuteera/003-floor-plan-3d-floor-plan-3bhk-unit.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/3-bhk-unit.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "krishna kuteera",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Krishna Kuteera Gallery 1",
+        "url": "/project_images/krishna-kuteera/004-gallery-gallery-krishna-kuteera-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/gallery/1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "krishna kuteera",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Krishna Kuteera Gallery 2",
+        "url": "/project_images/krishna-kuteera/005-gallery-gallery-krishna-kuteera-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/gallery/2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "krishna kuteera",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Krishna Kuteera Gallery 3",
+        "url": "/project_images/krishna-kuteera/006-gallery-gallery-krishna-kuteera-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/gallery/3.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "krishna kuteera",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Krishna Kuteera Gallery 4",
+        "url": "/project_images/krishna-kuteera/007-gallery-gallery-krishna-kuteera-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/gallery/4.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "krishna kuteera",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Krishna Kuteera Gallery 5",
+        "url": "/project_images/krishna-kuteera/008-gallery-gallery-krishna-kuteera-gallery-5.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/gallery/vd-thumb.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "krishna kuteera",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Krishna Kuteera Gallery 6",
+        "url": "/project_images/krishna-kuteera/009-gallery-gallery-krishna-kuteera-gallery-6.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/gallery/5.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "krishna kuteera",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Krishna Kuteera Gallery 7",
+        "url": "/project_images/krishna-kuteera/010-gallery-gallery-krishna-kuteera-gallery-7.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/gallery/6.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "krishna kuteera",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Krishna Kuteera Gallery 8",
+        "url": "/project_images/krishna-kuteera/011-gallery-gallery-krishna-kuteera-gallery-8.jpg",
+        "source_url": "https://landtrades.in/img/projects/krishna-kuteera/gallery/7-thumb.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "krishna kuteera",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Mahalaxmi": [
+      {
+        "label": "Typical Floor Plan",
+        "url": "/project_images/mahalaxmi/001-floor-plan-typical-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/fp/typical-floor-plan.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "mahalaxmi",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "Typical Refuge Floor Plan",
+        "url": "/project_images/mahalaxmi/002-floor-plan-typical-floor-plan-typical-refuge-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/fp/typical-refuge-floor-plan.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "mahalaxmi",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "Unit Plan Flat-1",
+        "url": "/project_images/mahalaxmi/003-floor-plan-typical-floor-plan-unit-plan-flat-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/fp/unit-plan-flat-1.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "mahalaxmi",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "Unit Plan Flat-2",
+        "url": "/project_images/mahalaxmi/004-floor-plan-typical-floor-plan-unit-plan-flat-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/fp/unit-plan-flat-2.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "mahalaxmi",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "Unit Plan Flat-3",
+        "url": "/project_images/mahalaxmi/005-floor-plan-typical-floor-plan-unit-plan-flat-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/fp/unit-plan-flat-3.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "mahalaxmi",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "Unit Plan Flat-4",
+        "url": "/project_images/mahalaxmi/006-floor-plan-typical-floor-plan-unit-plan-flat-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/fp/unit-plan-flat-4.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "mahalaxmi",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "Unit Plan Flat-5",
+        "url": "/project_images/mahalaxmi/007-floor-plan-typical-floor-plan-unit-plan-flat-5.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/fp/unit-plan-flat-5.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "mahalaxmi",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "Upper Ground Floor",
+        "url": "/project_images/mahalaxmi/008-floor-plan-typical-floor-plan-upper-ground-floor.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/fp/upper_ground_floor.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "mahalaxmi",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "Terrace Floor Plan",
+        "url": "/project_images/mahalaxmi/009-floor-plan-terrace-plan-terrace-floor-plan.png",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/terrace-floor-thumb.jpg",
+        "type": "floor_plan",
+        "category": "Terrace Plan",
+        "tags": [
+          "mahalaxmi",
+          "floor plan",
+          "terrace plan"
+        ]
+      },
+      {
+        "label": "Parking Terrace Floor Plan",
+        "url": "/project_images/mahalaxmi/009-floor-plan-terrace-plan-parking-terrace-floor-plan.png",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/parking-terrace-floor-thumb.jpg",
+        "type": "floor_plan",
+        "category": "Terrace Plan",
+        "tags": [
+          "mahalaxmi",
+          "floor plan",
+          "terrace plan"
+        ]
+      },
+      {
+        "label": "Mahalaxmi Gallery 1",
+        "url": "/project_images/mahalaxmi/011-gallery-gallery-mahalaxmi-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/gallery/1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "mahalaxmi",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Mahalaxmi Gallery 2",
+        "url": "/project_images/mahalaxmi/012-gallery-gallery-mahalaxmi-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/gallery/2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "mahalaxmi",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Mahalaxmi Gallery 3",
+        "url": "/project_images/mahalaxmi/013-gallery-gallery-mahalaxmi-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/gallery/3.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "mahalaxmi",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Mahalaxmi Gallery 4",
+        "url": "/project_images/mahalaxmi/014-gallery-gallery-mahalaxmi-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/mahalaxmi/gallery/4.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "mahalaxmi",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Mahalaxmi Gallery 5",
+        "url": "/project_images/laxmi-govind/011-gallery-gallery-laxmi-govind-gallery-5.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/gallery/5.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "mahalaxmi",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Mahalaxmi Gallery 6",
+        "url": "/project_images/laxmi-govind/012-gallery-gallery-laxmi-govind-gallery-6.jpg",
+        "source_url": "https://landtrades.in/img/projects/laxmi-govind/gallery/6.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "mahalaxmi",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "BMK Sky Villa": [
+      {
+        "label": "Typical Unit Plan (2nd to 24th Floor)",
+        "url": "/project_images/bmk-sky-villa/001-floor-plan-typical-floor-plan-typical-unit-plan-2nd-to-24th-floor.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/floorplans/5.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "bmk sky villa",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "BASEMENT FLOOR PLAN",
+        "url": "/project_images/bmk-sky-villa/002-floor-plan-3d-floor-plan-basement-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/floorplans/1.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "bmk sky villa",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "LOWER GROUND FLOOR PLAN",
+        "url": "/project_images/bmk-sky-villa/003-floor-plan-3d-floor-plan-lower-ground-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/floorplans/2.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "bmk sky villa",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "UPPER GROUND FLOOR PLAN",
+        "url": "/project_images/bmk-sky-villa/004-floor-plan-3d-floor-plan-upper-ground-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/floorplans/3.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "bmk sky villa",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "1st(CLUB HOUSE) FLOOR PLAN",
+        "url": "/project_images/bmk-sky-villa/005-floor-plan-3d-floor-plan-1st-club-house-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/floorplans/4.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "bmk sky villa",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Terrace Floor Plan",
+        "url": "/project_images/bmk-sky-villa/006-floor-plan-terrace-plan-terrace-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/floorplans/6.jpg",
+        "type": "floor_plan",
+        "category": "Terrace Plan",
+        "tags": [
+          "bmk sky villa",
+          "floor plan",
+          "terrace plan"
+        ]
+      },
+      {
+        "label": "BMK Sky Villa Gallery 1",
+        "url": "/project_images/bmk-sky-villa/007-gallery-gallery-bmk-sky-villa-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/gallery/1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "bmk sky villa",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "BMK Sky Villa Gallery 2",
+        "url": "/project_images/bmk-sky-villa/008-gallery-gallery-bmk-sky-villa-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/gallery/2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "bmk sky villa",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "BMK Sky Villa Gallery 3",
+        "url": "/project_images/bmk-sky-villa/009-gallery-gallery-bmk-sky-villa-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/gallery/3.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "bmk sky villa",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "BMK Sky Villa Gallery 4",
+        "url": "/project_images/bmk-sky-villa/010-gallery-gallery-bmk-sky-villa-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/gallery/4.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "bmk sky villa",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "BMK Sky Villa Gallery 5",
+        "url": "/project_images/bmk-sky-villa/011-gallery-gallery-bmk-sky-villa-gallery-5.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/gallery/5.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "bmk sky villa",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "BMK Sky Villa Gallery 6",
+        "url": "/project_images/bmk-sky-villa/012-gallery-gallery-bmk-sky-villa-gallery-6.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/gallery/6.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "bmk sky villa",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "BMK Sky Villa Gallery 7",
+        "url": "/project_images/bmk-sky-villa/013-gallery-gallery-bmk-sky-villa-gallery-7.jpg",
+        "source_url": "https://landtrades.in/img/projects/skyvilla/gallery/7.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "bmk sky villa",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Pristine": [
+      {
+        "label": "Ground Floor-Double Height",
+        "url": "/project_images/pristine/001-floor-plan-3d-floor-plan-ground-floor-double-height.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/floorplan/1.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "pristine",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Plans 1th-4th floor",
+        "url": "/project_images/pristine/002-floor-plan-3d-floor-plan-typical-floor-plans-1th-4th-floor.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/floorplan/2.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "pristine",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Amenities Level Plan 11th Floor",
+        "url": "/project_images/pristine/003-floor-plan-3d-floor-plan-amenities-level-plan-11th-floor.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/floorplan/3.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "pristine",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Plans 12th-37th Floor",
+        "url": "/project_images/pristine/004-floor-plan-3d-floor-plan-typical-floor-plans-12th-37th-floor.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/floorplan/4.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "pristine",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Key Plan 4bhk 3478 Saleable area",
+        "url": "/project_images/pristine/005-floor-plan-3d-floor-plan-key-plan-4bhk-3478-saleable-area.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/floorplan/5.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "pristine",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Key Plan 4bhk 3366 Saleable area",
+        "url": "/project_images/pristine/006-floor-plan-3d-floor-plan-key-plan-4bhk-3366-saleable-area.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/floorplan/6.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "pristine",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Key Plan 3bhk 2299 Saleable area",
+        "url": "/project_images/pristine/007-floor-plan-3d-floor-plan-key-plan-3bhk-2299-saleable-area.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/floorplan/7.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "pristine",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Key Plan 3bhk 2363 Saleable area",
+        "url": "/project_images/pristine/008-floor-plan-3d-floor-plan-key-plan-3bhk-2363-saleable-area.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/floorplan/8.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "pristine",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Terrace Floor Plan",
+        "url": "/project_images/pristine/009-floor-plan-3d-floor-plan-terrace-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/floorplan/9.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "pristine",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Pristine Gallery 1",
+        "url": "/project_images/pristine/010-gallery-gallery-pristine-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/gallery/1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "pristine",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Pristine Gallery 2",
+        "url": "/project_images/pristine/011-gallery-gallery-pristine-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/gallery/2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "pristine",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Pristine Gallery 3",
+        "url": "/project_images/pristine/012-gallery-gallery-pristine-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/gallery/3.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "pristine",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Pristine Gallery 4",
+        "url": "/project_images/pristine/013-gallery-gallery-pristine-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/gallery/4.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "pristine",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Pristine Gallery 5",
+        "url": "/project_images/pristine/014-gallery-gallery-pristine-gallery-5.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/gallery/5.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "pristine",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Pristine Gallery 6",
+        "url": "/project_images/pristine/015-gallery-gallery-pristine-gallery-6.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/gallery/6.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "pristine",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Pristine Gallery 7",
+        "url": "/project_images/pristine/016-gallery-gallery-pristine-gallery-7.jpg",
+        "source_url": "https://landtrades.in/img/projects/pristine/gallery/7.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "pristine",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Shivabagh": [
+      {
+        "label": "Master Plan",
+        "url": "/project_images/shivabagh/001-floor-plan-master-plan-master-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/master-plan.jpg",
+        "type": "floor_plan",
+        "category": "Master Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "master plan"
+        ]
+      },
+      {
+        "label": "Typical Floor Plan",
+        "url": "/project_images/shivabagh/002-floor-plan-typical-floor-plan-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/typical.jpg",
+        "type": "floor_plan",
+        "category": "Typical Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "typical floor plan"
+        ]
+      },
+      {
+        "label": "33rd Floor Plan",
+        "url": "/project_images/shivabagh/003-floor-plan-33rd-floor-plan-33rd-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/33.jpg",
+        "type": "floor_plan",
+        "category": "33rd Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "33rd floor plan"
+        ]
+      },
+      {
+        "label": "3 BEDROOM UNIT - 2622 Sq.ft",
+        "url": "/project_images/shivabagh/004-floor-plan-3d-floor-plan-3-bedroom-unit-2622-sq-ft.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/3bed-1.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "3 BEDROOM UNIT - 2630 Sq.ft",
+        "url": "/project_images/shivabagh/005-floor-plan-3d-floor-plan-3-bedroom-unit-2630-sq-ft.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/3bed-2.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "4 BEDROOM UNIT - 3719 Sq.ft",
+        "url": "/project_images/shivabagh/006-floor-plan-3d-floor-plan-4-bedroom-unit-3719-sq-ft.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/4bed-1.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "4 BEDROOM UNIT - 3763 Sq.ft",
+        "url": "/project_images/shivabagh/007-floor-plan-3d-floor-plan-4-bedroom-unit-3763-sq-ft.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/4bed-2.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "4 BEDROOM UNIT - 3640 Sq.ft",
+        "url": "/project_images/shivabagh/008-floor-plan-3d-floor-plan-4-bedroom-unit-3640-sq-ft.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/4bed-3.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "5 BEDROOM UNIT - 5202 Sq.ft",
+        "url": "/project_images/shivabagh/009-floor-plan-3d-floor-plan-5-bedroom-unit-5202-sq-ft.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/5bed-1.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "6 BEDROOM UNIT - 6750 Sq.ft",
+        "url": "/project_images/shivabagh/010-floor-plan-3d-floor-plan-6-bedroom-unit-6750-sq-ft.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/6bed-1.jpg",
+        "type": "floor_plan",
+        "category": "3D Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "3d floor plan"
+        ]
+      },
+      {
+        "label": "Duplex Lower Floor Plan",
+        "url": "/project_images/shivabagh/011-floor-plan-combined-and-duplex-floor-plan-duplex-lower-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/dlf.jpg",
+        "type": "floor_plan",
+        "category": "Combined and Duplex Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "combined and duplex floor plan"
+        ]
+      },
+      {
+        "label": "Combined Floor Plan",
+        "url": "/project_images/shivabagh/012-floor-plan-combined-and-duplex-floor-plan-combined-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/fp/cfp.jpg",
+        "type": "floor_plan",
+        "category": "Combined and Duplex Floor Plan",
+        "tags": [
+          "shivabagh",
+          "floor plan",
+          "combined and duplex floor plan"
+        ]
+      },
+      {
+        "label": "Shivabagh Gallery 1",
+        "url": "/project_images/shivabagh/013-gallery-gallery-shivabagh-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/gallery/1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "shivabagh",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Shivabagh Gallery 2",
+        "url": "/project_images/shivabagh/014-gallery-gallery-shivabagh-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/gallery/2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "shivabagh",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Shivabagh Gallery 3",
+        "url": "/project_images/shivabagh/015-gallery-gallery-shivabagh-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/gallery/3.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "shivabagh",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Shivabagh Gallery 4",
+        "url": "/project_images/shivabagh/016-gallery-gallery-shivabagh-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/gallery/4.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "shivabagh",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Shivabagh Gallery 5",
+        "url": "/project_images/shivabagh/017-gallery-gallery-shivabagh-gallery-5.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/gallery/5-thumb.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "shivabagh",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Shivabagh Gallery 6",
+        "url": "/project_images/shivabagh/018-gallery-gallery-shivabagh-gallery-6.jpg",
+        "source_url": "https://landtrades.in/img/projects/shivabagh/gallery/6.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "shivabagh",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Altura": [
+      {
+        "label": "3rd Floor Plan",
+        "url": "/project_images/altura/001-floor-plan-3rd-floor-plan-3rd-floor-plan.png",
+        "source_url": "https://landtrades.in/img/projects/altura/floor-plan/1.png",
+        "type": "floor_plan",
+        "category": "3rd Floor Plan",
+        "tags": [
+          "altura",
+          "floor plan",
+          "3rd floor plan"
+        ]
+      },
+      {
+        "label": "3 Bedroom Unit|Type1-1885 SQFT",
+        "url": "/project_images/altura/002-floor-plan-3rd-floor-plan-3-bedroom-unit-type1-1885-sqft.png",
+        "source_url": "https://landtrades.in/img/projects/altura/floor-plan/2.png",
+        "type": "floor_plan",
+        "category": "3rd Floor Plan",
+        "tags": [
+          "altura",
+          "floor plan",
+          "3rd floor plan"
+        ]
+      },
+      {
+        "label": "3 Bedroom Unit|Type2-1831 SQFT",
+        "url": "/project_images/altura/003-floor-plan-3rd-floor-plan-3-bedroom-unit-type2-1831-sqft.png",
+        "source_url": "https://landtrades.in/img/projects/altura/floor-plan/3.png",
+        "type": "floor_plan",
+        "category": "3rd Floor Plan",
+        "tags": [
+          "altura",
+          "floor plan",
+          "3rd floor plan"
+        ]
+      },
+      {
+        "label": "3 Bedroom Unit|Type3-1484 SQFT",
+        "url": "/project_images/altura/004-floor-plan-3rd-floor-plan-3-bedroom-unit-type3-1484-sqft.png",
+        "source_url": "https://landtrades.in/img/projects/altura/floor-plan/4.png",
+        "type": "floor_plan",
+        "category": "3rd Floor Plan",
+        "tags": [
+          "altura",
+          "floor plan",
+          "3rd floor plan"
+        ]
+      },
+      {
+        "label": "2 Bedroom Unit|Type1-1123 SQFT",
+        "url": "/project_images/altura/005-floor-plan-3rd-floor-plan-2-bedroom-unit-type1-1123-sqft.png",
+        "source_url": "https://landtrades.in/img/projects/altura/floor-plan/5.png",
+        "type": "floor_plan",
+        "category": "3rd Floor Plan",
+        "tags": [
+          "altura",
+          "floor plan",
+          "3rd floor plan"
+        ]
+      },
+      {
+        "label": "4th-30th Floor Plan",
+        "url": "/project_images/altura/006-floor-plan-4-30th-floor-plan-4th-30th-floor-plan.png",
+        "source_url": "https://landtrades.in/img/projects/altura/floor-plan/6.png",
+        "type": "floor_plan",
+        "category": "4-30th Floor Plan",
+        "tags": [
+          "altura",
+          "floor plan",
+          "4-30th floor plan"
+        ]
+      },
+      {
+        "label": "3 Bedroom Unit|Type4-2132 SQFT",
+        "url": "/project_images/altura/007-floor-plan-4-30th-floor-plan-3-bedroom-unit-type4-2132-sqft.png",
+        "source_url": "https://landtrades.in/img/projects/altura/floor-plan/7.png",
+        "type": "floor_plan",
+        "category": "4-30th Floor Plan",
+        "tags": [
+          "altura",
+          "floor plan",
+          "4-30th floor plan"
+        ]
+      },
+      {
+        "label": "3 Bedroom Unit|Type5-2079 SQFT",
+        "url": "/project_images/altura/008-floor-plan-4-30th-floor-plan-3-bedroom-unit-type5-2079-sqft.png",
+        "source_url": "https://landtrades.in/img/projects/altura/floor-plan/8.png",
+        "type": "floor_plan",
+        "category": "4-30th Floor Plan",
+        "tags": [
+          "altura",
+          "floor plan",
+          "4-30th floor plan"
+        ]
+      },
+      {
+        "label": "3 Bedroom Unit|Type6-1612 SQFT",
+        "url": "/project_images/altura/009-floor-plan-4-30th-floor-plan-3-bedroom-unit-type6-1612-sqft.png",
+        "source_url": "https://landtrades.in/img/projects/altura/floor-plan/9.png",
+        "type": "floor_plan",
+        "category": "4-30th Floor Plan",
+        "tags": [
+          "altura",
+          "floor plan",
+          "4-30th floor plan"
+        ]
+      },
+      {
+        "label": "4 Bedroom Unit|Type1-2645 SQFT",
+        "url": "/project_images/altura/010-floor-plan-4-30th-floor-plan-4-bedroom-unit-type1-2645-sqft.png",
+        "source_url": "https://landtrades.in/img/projects/altura/floor-plan/10.png",
+        "type": "floor_plan",
+        "category": "4-30th Floor Plan",
+        "tags": [
+          "altura",
+          "floor plan",
+          "4-30th floor plan"
+        ]
+      },
+      {
+        "label": "Altura Gallery 1",
+        "url": "/project_images/altura/011-gallery-gallery-altura-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/altura/gallery/1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altura",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altura Gallery 2",
+        "url": "/project_images/altura/012-gallery-gallery-altura-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/altura/gallery/2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altura",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altura Gallery 3",
+        "url": "/project_images/altura/013-gallery-gallery-altura-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/altura/gallery/3.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altura",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altura Gallery 4",
+        "url": "/project_images/altura/014-gallery-gallery-altura-gallery-4.jpg",
+        "source_url": "https://landtrades.in/img/projects/altura/gallery/4.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altura",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altura Gallery 5",
+        "url": "/project_images/altura/015-gallery-gallery-altura-gallery-5.jpg",
+        "source_url": "https://landtrades.in/img/projects/altura/gallery/5.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altura",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altura Gallery 6",
+        "url": "/project_images/altura/016-gallery-gallery-altura-gallery-6.jpg",
+        "source_url": "https://landtrades.in/img/projects/altura/gallery/6.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altura",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Altura Gallery 7",
+        "url": "/project_images/altura/017-gallery-gallery-altura-gallery-7.jpg",
+        "source_url": "https://landtrades.in/img/projects/altura/gallery/7.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "altura",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Vikram": [
+      {
+        "label": "Ground Floor Plan",
+        "url": "/project_images/vikram/001-floor-plan-floor-plans-ground-floor-plan.png",
+        "source_url": "https://landtrades.in/img/projects/vikram/floor-plan/l/2.png",
+        "type": "floor_plan",
+        "category": "Floor Plans",
+        "tags": [
+          "vikram",
+          "floor plan",
+          "floor plans"
+        ]
+      },
+      {
+        "label": "1st Floor Plan",
+        "url": "/project_images/vikram/002-floor-plan-floor-plans-1st-floor-plan.png",
+        "source_url": "https://landtrades.in/img/projects/vikram/floor-plan/l/3.png",
+        "type": "floor_plan",
+        "category": "Floor Plans",
+        "tags": [
+          "vikram",
+          "floor plan",
+          "floor plans"
+        ]
+      },
+      {
+        "label": "2nd Floor Plan",
+        "url": "/project_images/vikram/003-floor-plan-floor-plans-2nd-floor-plan.png",
+        "source_url": "https://landtrades.in/img/projects/vikram/floor-plan/l/4.png",
+        "type": "floor_plan",
+        "category": "Floor Plans",
+        "tags": [
+          "vikram",
+          "floor plan",
+          "floor plans"
+        ]
+      },
+      {
+        "label": "4th Floor Plan",
+        "url": "/project_images/vikram/004-floor-plan-floor-plans-4th-floor-plan.png",
+        "source_url": "https://landtrades.in/img/projects/vikram/floor-plan/s/6.png",
+        "type": "floor_plan",
+        "category": "Floor Plans",
+        "tags": [
+          "vikram",
+          "floor plan",
+          "floor plans"
+        ]
+      },
+      {
+        "label": "Basement Floor Plan",
+        "url": "/project_images/vikram/005-floor-plan-floor-plans-basement-floor-plan.png",
+        "source_url": "https://landtrades.in/img/projects/vikram/floor-plan/l/1.png",
+        "type": "floor_plan",
+        "category": "Floor Plans",
+        "tags": [
+          "vikram",
+          "floor plan",
+          "floor plans"
+        ]
+      },
+      {
+        "label": "Vikram Gallery 1",
+        "url": "/project_images/vikram/006-gallery-gallery-vikram-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/vikram/gallery/1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "vikram",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Vikram Gallery 2",
+        "url": "/project_images/vikram/007-gallery-gallery-vikram-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/vikram/gallery/2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "vikram",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Synergy": [
+      {
+        "label": "Ground Floor Plan",
+        "url": "/project_images/synergy/001-floor-plan-floor-plans-ground-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/synergy/fp/synergy_groundfloor.jpg",
+        "type": "floor_plan",
+        "category": "Floor Plans",
+        "tags": [
+          "synergy",
+          "floor plan",
+          "floor plans"
+        ]
+      },
+      {
+        "label": "1st Floor Plan",
+        "url": "/project_images/synergy/002-floor-plan-floor-plans-1st-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/synergy/fp/synergy_firstfloor.jpg",
+        "type": "floor_plan",
+        "category": "Floor Plans",
+        "tags": [
+          "synergy",
+          "floor plan",
+          "floor plans"
+        ]
+      },
+      {
+        "label": "Basement Floor Plan",
+        "url": "/project_images/synergy/003-floor-plan-floor-plans-basement-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/synergy/fp/synergy_basement.jpg",
+        "type": "floor_plan",
+        "category": "Floor Plans",
+        "tags": [
+          "synergy",
+          "floor plan",
+          "floor plans"
+        ]
+      },
+      {
+        "label": "Typical Floor Plan",
+        "url": "/project_images/synergy/004-floor-plan-floor-plans-typical-floor-plan.jpg",
+        "source_url": "https://landtrades.in/img/projects/synergy/fp/synergy_typical.jpg",
+        "type": "floor_plan",
+        "category": "Floor Plans",
+        "tags": [
+          "synergy",
+          "floor plan",
+          "floor plans"
+        ]
+      },
+      {
+        "label": "Synergy Gallery 1",
+        "url": "/project_images/synergy/005-gallery-gallery-synergy-gallery-1.jpg",
+        "source_url": "https://landtrades.in/img/projects/synergy/gallery/1.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "synergy",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Synergy Gallery 2",
+        "url": "/project_images/synergy/006-gallery-gallery-synergy-gallery-2.jpg",
+        "source_url": "https://landtrades.in/img/projects/synergy/gallery/2.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "synergy",
+          "gallery",
+          "gallery"
+        ]
+      },
+      {
+        "label": "Synergy Gallery 3",
+        "url": "/project_images/synergy/007-gallery-gallery-synergy-gallery-3.jpg",
+        "source_url": "https://landtrades.in/img/projects/synergy/gallery/3.jpg",
+        "type": "gallery",
+        "category": "Gallery",
+        "tags": [
+          "synergy",
+          "gallery",
+          "gallery"
+        ]
+      }
+    ],
+    "Indus": [
+      {
+        "label": "Indus Completed Project",
+        "url": "/project_images/indus/001-gallery-completed-commercial-projects-indus-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/indus-1.jpg",
+        "type": "gallery",
+        "category": "Completed Commercial Projects",
+        "tags": [
+          "indus",
+          "gallery",
+          "completed commercial projects"
+        ]
+      }
+    ],
+    "Anantessh": [
+      {
+        "label": "Anantessh Completed Project",
+        "url": "/project_images/anantessh/001-gallery-completed-commercial-projects-anantessh-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/anantessh-1.jpg",
+        "type": "gallery",
+        "category": "Completed Commercial Projects",
+        "tags": [
+          "anantessh",
+          "gallery",
+          "completed commercial projects"
+        ]
+      }
+    ],
+    "Milestone 25": [
+      {
+        "label": "Milestone 25 Completed Project",
+        "url": "/project_images/milestone-25/001-gallery-completed-commercial-projects-milestone-25-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/milestone-25-3.jpg",
+        "type": "gallery",
+        "category": "Completed Commercial Projects",
+        "tags": [
+          "milestone 25",
+          "gallery",
+          "completed commercial projects"
+        ]
+      }
+    ],
+    "Parin": [
+      {
+        "label": "Parin Completed Project",
+        "url": "/project_images/parin/001-gallery-completed-commercial-projects-parin-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/parin.jpg",
+        "type": "gallery",
+        "category": "Completed Commercial Projects",
+        "tags": [
+          "parin",
+          "gallery",
+          "completed commercial projects"
+        ]
+      }
+    ],
+    "Aadheesh": [
+      {
+        "label": "Aadheesh Completed Project",
+        "url": "/project_images/aadheesh/001-gallery-completed-commercial-projects-aadheesh-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/aadheesh.jpg",
+        "type": "gallery",
+        "category": "Completed Commercial Projects",
+        "tags": [
+          "aadheesh",
+          "gallery",
+          "completed commercial projects"
+        ]
+      }
+    ],
+    "Adira": [
+      {
+        "label": "Adira Completed Project",
+        "url": "/project_images/adira/001-gallery-completed-residential-projects-adira-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/adhira-1.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "adira",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Kamath Gardens": [
+      {
+        "label": "Kamath Gardens Completed Project",
+        "url": "/project_images/kamath-gardens/001-gallery-completed-residential-projects-kamath-gardens-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/kamath.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "kamath gardens",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Nakshatra": [
+      {
+        "label": "Nakshatra Completed Project",
+        "url": "/project_images/nakshatra/001-gallery-completed-residential-projects-nakshatra-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/nakshatra-thumb.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "nakshatra",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Habitat One54": [
+      {
+        "label": "Habitat One54 Completed Project",
+        "url": "/project_images/habitat-one54/001-gallery-completed-residential-projects-habitat-one54-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/habitat-one54-1.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "habitat one54",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Emerald Bay": [
+      {
+        "label": "Emerald Bay Completed Project",
+        "url": "/project_images/emerald-bay/001-gallery-completed-residential-projects-emerald-bay-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/emerald-bay.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "emerald bay",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Solitaire": [
+      {
+        "label": "Solitaire Completed Project",
+        "url": "/project_images/solitaire/001-gallery-completed-residential-projects-solitaire-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/solitaire-1.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "solitaire",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Insignia": [
+      {
+        "label": "Insignia Completed Project",
+        "url": "/project_images/insignia/001-gallery-completed-residential-projects-insignia-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/insignia-1.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "insignia",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Lenhil Ferns": [
+      {
+        "label": "Lenhil Ferns Completed Project",
+        "url": "/project_images/lenhil-ferns/001-gallery-completed-residential-projects-lenhil-ferns-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/lenhil-ferns.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "lenhil ferns",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Melody": [
+      {
+        "label": "Melody Completed Project",
+        "url": "/project_images/melody/001-gallery-completed-residential-projects-melody-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/melody.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "melody",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Sanskriti": [
+      {
+        "label": "Sanskriti Completed Project",
+        "url": "/project_images/sanskriti/001-gallery-completed-residential-projects-sanskriti-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/sanskriti.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "sanskriti",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Aashna": [
+      {
+        "label": "Aashna Completed Project",
+        "url": "/project_images/aashna/001-gallery-completed-residential-projects-aashna-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/aashna.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "aashna",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Atlantis": [
+      {
+        "label": "Atlantis Completed Project",
+        "url": "/project_images/atlantis/001-gallery-completed-residential-projects-atlantis-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/atlantis.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "atlantis",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Roopali": [
+      {
+        "label": "Roopali Completed Project",
+        "url": "/project_images/roopali/001-gallery-completed-residential-projects-roopali-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/roopali.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "roopali",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Vasundhara": [
+      {
+        "label": "Vasundhara Completed Project",
+        "url": "/project_images/vasundhara/001-gallery-completed-residential-projects-vasundhara-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/vasundhara.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "vasundhara",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Aquarius": [
+      {
+        "label": "Aquarius Completed Project",
+        "url": "/project_images/aquarius/001-gallery-completed-residential-projects-aquarius-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/aquarius.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "aquarius",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Maurishka Palace": [
+      {
+        "label": "Maurishka Palace Completed Project",
+        "url": "/project_images/maurishka-palace/001-gallery-completed-residential-projects-maurishka-palace-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/maurishka-palace.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "maurishka palace",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Sai Prem": [
+      {
+        "label": "Sai Prem Completed Project",
+        "url": "/project_images/sai-prem/001-gallery-completed-residential-projects-sai-prem-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/sai-prem.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "sai prem",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Rehoboth": [
+      {
+        "label": "Rehoboth Completed Project",
+        "url": "/project_images/rehoboth/001-gallery-completed-residential-projects-rehoboth-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/rehoboth.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "rehoboth",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Brookside": [
+      {
+        "label": "Brookside Completed Project",
+        "url": "/project_images/brookside/001-gallery-completed-residential-projects-brookside-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/brookside.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "brookside",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Adonia": [
+      {
+        "label": "Adonia Completed Project",
+        "url": "/project_images/adonia/001-gallery-completed-residential-projects-adonia-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/adonia.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "adonia",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Hillside Ferns": [
+      {
+        "label": "Hillside Ferns Completed Project",
+        "url": "/project_images/hillside-ferns/001-gallery-completed-residential-projects-hillside-ferns-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/hillside-ferns.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "hillside ferns",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Minerva": [
+      {
+        "label": "Minerva Completed Project",
+        "url": "/project_images/minerva/001-gallery-completed-residential-projects-minerva-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/minerva.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "minerva",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Ourania": [
+      {
+        "label": "Ourania Completed Project",
+        "url": "/project_images/ourania/001-gallery-completed-residential-projects-ourania-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/ourania.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "ourania",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Sai Grandeur": [
+      {
+        "label": "Sai Grandeur Completed Project",
+        "url": "/project_images/sai-grandeur/001-gallery-completed-residential-projects-sai-grandeur-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/sai-grandeur.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "sai grandeur",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Serene": [
+      {
+        "label": "Serene Completed Project",
+        "url": "/project_images/serene/001-gallery-completed-residential-projects-serene-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/serene.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "serene",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Danube": [
+      {
+        "label": "Danube Completed Project",
+        "url": "/project_images/danube/001-gallery-completed-residential-projects-danube-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/danube.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "danube",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Pushkar": [
+      {
+        "label": "Pushkar Completed Project",
+        "url": "/project_images/pushkar/001-gallery-completed-residential-projects-pushkar-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/pushkar.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "pushkar",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Aria": [
+      {
+        "label": "Aria Completed Project",
+        "url": "/project_images/aria/001-gallery-completed-residential-projects-aria-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/aria.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "aria",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Mercara Heights": [
+      {
+        "label": "Mercara Heights Completed Project",
+        "url": "/project_images/mercara-heights/001-gallery-completed-residential-projects-mercara-heights-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/mercara-heights.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "mercara heights",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Olive": [
+      {
+        "label": "Olive Completed Project",
+        "url": "/project_images/olive/001-gallery-completed-residential-projects-olive-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/olive.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "olive",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Orion": [
+      {
+        "label": "Orion Completed Project",
+        "url": "/project_images/orion/001-gallery-completed-residential-projects-orion-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/orion.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "orion",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Aadhee": [
+      {
+        "label": "Aadhee Completed Project",
+        "url": "/project_images/aadhee/001-gallery-completed-residential-projects-aadhee-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/aadhee.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "aadhee",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Vijaya": [
+      {
+        "label": "Vijaya Completed Project",
+        "url": "/project_images/vijaya/001-gallery-completed-residential-projects-vijaya-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/vijaya.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "vijaya",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Esha": [
+      {
+        "label": "Esha Completed Project",
+        "url": "/project_images/esha/001-gallery-completed-residential-projects-esha-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/esha.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "esha",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Hathill Crest": [
+      {
+        "label": "Hathill Crest Completed Project",
+        "url": "/project_images/hathill-crest/001-gallery-completed-residential-projects-hathill-crest-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/hathill-crest.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "hathill crest",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ],
+    "Astoria": [
+      {
+        "label": "Astoria Completed Project",
+        "url": "/project_images/astoria/001-gallery-completed-residential-projects-astoria-completed-project.jpg",
+        "source_url": "https://landtrades.in/img/projects/completed/astoria.jpg",
+        "type": "gallery",
+        "category": "Completed Residential Projects",
+        "tags": [
+          "astoria",
+          "gallery",
+          "completed residential projects"
+        ]
+      }
+    ]
+  },
+  "general": {
+    "Founder": [
+      {
+        "label": "Mr K. Shrinath Hebbar - Managing Director - founder",
+        "url": "/project_images/_general/founder/001-founder-mr-k-shrinath-hebbar-managing-director-founder.jpg",
+        "source_url": "https://landtrades.in/img/shrinath-hebbar.jpg",
+        "type": "profile",
+        "category": "Founder",
+        "tags": []
+      }
+    ],
+    "Awards and Certifications": [
+      {
+        "label": "certificate_crisil",
+        "url": "/project_images/_general/awards-and-certifications/001-awards-and-certifications-certificate-crisil.jpg",
+        "source_url": "https://landtrades.in/img/certifications/certificate_crisil.jpg",
+        "type": "certification",
+        "category": "Awards and Certifications",
+        "tags": []
+      },
+      {
+        "label": "bureau-certificate",
+        "url": "/project_images/_general/awards-and-certifications/002-awards-and-certifications-bureau-certificate.jpg",
+        "source_url": "https://landtrades.in/img/certifications/bureau-certificate.jpg",
+        "type": "certification",
+        "category": "Awards and Certifications",
+        "tags": []
+      },
+      {
+        "label": "IGBC",
+        "url": "/project_images/_general/awards-and-certifications/003-awards-and-certifications-igbc.jpg",
+        "source_url": "https://landtrades.in/img/certifications/IGBC.jpg",
+        "type": "certification",
+        "category": "Awards and Certifications",
+        "tags": []
+      },
+      {
+        "label": "ultra-tech",
+        "url": "/project_images/_general/awards-and-certifications/004-awards-and-certifications-ultra-tech.jpg",
+        "source_url": "https://landtrades.in/img/certifications/ultra-tech.jpg",
+        "type": "certification",
+        "category": "Awards and Certifications",
+        "tags": []
+      },
+      {
+        "label": "atlantis-2016",
+        "url": "/project_images/_general/awards-and-certifications/005-awards-and-certifications-atlantis-2016.jpg",
+        "source_url": "https://landtrades.in/img/certifications/atlantis-2016.jpg",
+        "type": "certification",
+        "category": "Awards and Certifications",
+        "tags": []
+      },
+      {
+        "label": "sai-grandeur Crisil Star Rating",
+        "url": "/project_images/_general/awards-and-certifications/006-awards-and-certifications-sai-grandeur-crisil-star-rating.jpg",
+        "source_url": "https://landtrades.in/img/certifications/sai-grandeur.jpg",
+        "type": "certification",
+        "category": "Awards and Certifications",
+        "tags": []
+      },
+      {
+        "label": "maurishka palace Crisil Star Rating",
+        "url": "/project_images/_general/awards-and-certifications/007-awards-and-certifications-maurishka-palace-crisil-star-rating.jpg",
+        "source_url": "https://landtrades.in/img/certifications/maurishka-palace-2016.jpg",
+        "type": "certification",
+        "category": "Awards and Certifications",
+        "tags": []
+      },
+      {
+        "label": "Ourania Crisil Star Rating",
+        "url": "/project_images/_general/awards-and-certifications/008-awards-and-certifications-ourania-crisil-star-rating.jpg",
+        "source_url": "https://landtrades.in/img/certifications/ourania.jpg",
+        "type": "certification",
+        "category": "Awards and Certifications",
+        "tags": []
+      },
+      {
+        "label": "Solitaire Crisil Star Rating",
+        "url": "/project_images/_general/awards-and-certifications/009-awards-and-certifications-solitaire-crisil-star-rating.jpg",
+        "source_url": "https://landtrades.in/img/certifications/certifications-solitaire.jpg",
+        "type": "certification",
+        "category": "Awards and Certifications",
+        "tags": []
+      }
+    ],
+    "News and Events": [
+      {
+        "label": "Building beyond profits: Land Trades helps rural children through Vidya Sankalp CSR initiative",
+        "url": "/project_images/_general/news-and-events/001-news-and-events-building-beyond-profits-land-trades-helps-rural-children-through-vidya-sankalp-csr-initiative.jpg",
+        "source_url": "https://daijiworld.ap-south-1.linodeobjects.com/Linode/images3/Padmanabha14112024_4.jpg",
+        "type": "news",
+        "category": "News and Events",
+        "tags": []
+      },
+      {
+        "label": "Mangaluru: Land Trades celebrates International Day of older persons",
+        "url": "/project_images/_general/news-and-events/002-news-and-events-mangaluru-land-trades-celebrates-international-day-of-older-persons.jpg",
+        "source_url": "https://daijiworld.ap-south-1.linodeobjects.com/Linode/images3/oldpeople02102024_3.jpg",
+        "type": "news",
+        "category": "News and Events",
+        "tags": []
+      },
+      {
+        "label": "Mangaluru: Land Trades celebrates International Day of older persons",
+        "url": "/project_images/_general/news-and-events/003-news-and-events-mangaluru-land-trades-celebrates-international-day-of-older-persons.jpg",
+        "source_url": "https://daijiworld.ap-south-1.linodeobjects.com/Linode/images3/oldpeople02102024_2.jpg",
+        "type": "news",
+        "category": "News and Events",
+        "tags": []
+      }
+    ],
+    "CSR Initiatives": [
+      {
+        "label": "Computer Lab Inauguration at Subodha High School Panaje",
+        "url": "/project_images/_general/csr-initiatives/001-csr-initiatives-computer-lab-inauguration-at-subodha-high-school-panaje.jpg",
+        "source_url": "https://landtrades.in/img/csr/computer-lab/1.jpg",
+        "type": "csr",
+        "category": "CSR Initiatives",
+        "tags": []
+      },
+      {
+        "label": "Labour Day with Health Camp for Workers",
+        "url": "/project_images/_general/csr-initiatives/002-csr-initiatives-labour-day-with-health-camp-for-workers.jpg",
+        "source_url": "https://landtrades.in/img/csr/labor/laborday1.jpg",
+        "type": "csr",
+        "category": "CSR Initiatives",
+        "tags": []
+      },
+      {
+        "label": "International Childhood Cancer Day",
+        "url": "/project_images/_general/csr-initiatives/003-csr-initiatives-international-childhood-cancer-day.jpg",
+        "source_url": "https://landtrades.in/img/csr/cancer/cancer-day1.JPG",
+        "type": "csr",
+        "category": "CSR Initiatives",
+        "tags": []
+      },
+      {
+        "label": "Education Programs",
+        "url": "/project_images/_general/news-and-events/001-news-and-events-building-beyond-profits-land-trades-helps-rural-children-through-vidya-sankalp-csr-initiative.jpg",
+        "source_url": "https://landtrades.in/img/csr/education/1.jpg",
+        "type": "csr",
+        "category": "CSR Initiatives",
+        "tags": []
+      },
+      {
+        "label": "Elderly Assist Program",
+        "url": "/project_images/_general/news-and-events/002-news-and-events-mangaluru-land-trades-celebrates-international-day-of-older-persons.jpg",
+        "source_url": "https://landtrades.in/img/csr/elderly/1.jpg",
+        "type": "csr",
+        "category": "CSR Initiatives",
+        "tags": []
+      }
+    ],
+    "Interiors": [
+      {
+        "label": "Insignia Interiors 404",
+        "url": "/project_images/_general/interiors/001-interiors-insignia-interiors-404.jpg",
+        "source_url": "https://landtrades.in/img/interior/Insignia-Interiors-404/1.jpg",
+        "type": "interior",
+        "category": "Interiors",
+        "tags": []
+      },
+      {
+        "label": "Prashanth Acharya",
+        "url": "/project_images/_general/interiors/002-interiors-prashanth-acharya.jpg",
+        "source_url": "https://landtrades.in/img/interior/Prashanth-Acharya/1.jpg",
+        "type": "interior",
+        "category": "Interiors",
+        "tags": []
+      },
+      {
+        "label": "Maurishka palace",
+        "url": "/project_images/_general/interiors/003-interiors-maurishka-palace.jpg",
+        "source_url": "https://landtrades.in/img/interior/Maurishka-palace/1.jpg",
+        "type": "interior",
+        "category": "Interiors",
+        "tags": []
+      },
+      {
+        "label": "solitaire bawa",
+        "url": "/project_images/_general/interiors/004-interiors-solitaire-bawa.jpg",
+        "source_url": "https://landtrades.in/img/interior/solitaire-bawa/1.jpg",
+        "type": "interior",
+        "category": "Interiors",
+        "tags": []
+      },
+      {
+        "label": "Solitaire subramanya ullodi",
+        "url": "/project_images/_general/interiors/005-interiors-solitaire-subramanya-ullodi.jpg",
+        "source_url": "https://landtrades.in/img/interior/Solitaire-subramanya-ullodi/1.JPG",
+        "type": "interior",
+        "category": "Interiors",
+        "tags": []
+      }
+    ]
+  }
+}
