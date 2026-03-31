@@ -363,19 +363,6 @@ export default function App() {
     }
   };
 
-  const formatMarkdownLists = (text) => {
-    if (!text) return "";
-
-    return text
-      .replace(/\r\n/g, "\n")
-      .replace(/[•✓]/g, "\n- ")
-      .replace(/–/g, "\n  - ")
-      .replace(/- \*\*Residential Projects:\*\*/g, "\n### Residential Projects")
-      .replace(/- \*\*Commercial Projects:\*\*/g, "\n### Commercial Projects")
-      .replace(/\n{3,}/g, "\n\n")
-      .trim();
-  };
-
   const renderImageGrid = (images, messageIndex) => {
     if (!images || images.length === 0) return null;
 
@@ -445,19 +432,9 @@ export default function App() {
 
   return (
     <div className="h-screen w-screen bg-gray-100 flex overflow-hidden">
-      {/* LEFT IMAGES */}
-      <div className="w-1/5 hidden xl:flex flex-col gap-4 p-4 justify-center">
-        <SideImage src="/images/altura.jpg" alt="Altura" caption="Altura" />
-        <SideImage
-          src="/images/mahalaxmi.jpg"
-          alt="Mahalaxmi"
-          caption="Mahalaxmi"
-        />
-      </div>
-
       {/* CHAT CONTAINER */}
-      <div className="flex-1 flex justify-center items-center">
-        <div className="w-full max-w-[900px] h-[90vh] bg-white rounded-2xl shadow-xl flex flex-col">
+      <div className="flex-1 flex items-center px-2">
+        <div className="w-full h-[90vh] bg-white rounded-2xl shadow-xl flex flex-col">
           {/* Header */}
           <div className="p-5 border-b flex items-center gap-4">
             <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center bg-white">
@@ -516,25 +493,36 @@ export default function App() {
                               <p className="mb-2 last:mb-0" {...props} />
                             ),
                             ul: ({ node, ...props }) => (
-                              <ul className="list-none ml-0 my-2 space-y-2 pl-0" {...props} />
+                              <ul
+                                className="list-disc ml-5 my-2 space-y-1"
+                                {...props}
+                              />
                             ),
                             ol: ({ node, ...props }) => (
-                              <ol className="list-none ml-0 my-2 space-y-2 pl-0" {...props} />
+                              <ol
+                                className="list-decimal ml-5 my-2 space-y-1"
+                                {...props}
+                              />
                             ),
                             li: ({ node, children }) => {
-                              const depth = node?.position?.start?.column > 3 ? 2 : 1;
-                              const symbol = depth === 1 ? "◆" : "▸";
-
+                              const depth = (node?.position?.start?.column || 0) >= 2 ? 2 : 1;
+                              const symbols = ["◆", "▸", "○", "■"];
+                              const colors = ["text-blue-600", "text-amber-600", "text-green-600", "text-purple-600"];
+                              const symbol = symbols[Math.min(depth - 1, 3)];
+                              const color = colors[Math.min(depth - 1, 3)];
+                              
                               return (
-                                <li className="relative list-none pl-6 leading-relaxed">
-                                  <span className="absolute left-0 top-0 text-blue-600">{symbol}</span>
-                                  {children}
+                                <li className="relative list-none leading-relaxed" style={{ paddingLeft: `${depth * 1.5}rem` }}>
+                                  <span className={`absolute ${color} font-semibold`} style={{ left: `${(depth - 1) * 1.5}rem` }}>
+                                    {symbol}
+                                  </span>
+                                  <span className="pl-1">{children}</span>
                                 </li>
                               );
                             },
                           }}
                         >
-                          {formatMarkdownLists(msg.text || "")}
+                          {msg.text || ""}
                         </ReactMarkdown>
                       )}
                     </div>
