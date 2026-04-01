@@ -24,7 +24,7 @@ if not api_key.startswith("gsk_"):
     print("⚠️  Warning: API key doesn't start with 'gsk_', may be invalid")
 
 client = Groq(api_key=api_key)
-print(f"✓ Groq client initialized (key ending: ...{api_key[-6:]})")
+print(f"[OK] Groq client initialized (key ending: ...{api_key[-6:]})")
 
 sessions = defaultdict(lambda: {
     "last_project": None,
@@ -150,6 +150,77 @@ def detect_project_query(query: str, session: dict):
     
     return None
 
+
+
+def detect_only_keyword(query: str) -> bool:
+    """Detect if user wants ONLY specific information, not boilerplate"""
+    q = normalize(query)
+    only_patterns = [
+        "only ",
+        "just ",
+        "show me just ",
+        "give me just ",
+        "i want only ",
+        "provide only ",
+    ]
+    return any(q.startswith(p) or f" {p}" in f" {q}" for p in only_patterns)
+
+
+def detect_comparison_query(query: str) -> bool:
+    """Detect if user is comparing projects or asking which is best"""
+    q = normalize(query)
+    comparison_patterns = [
+        "which is best",
+        "which project is best",
+        "which one is best",
+        "compare",
+        "vs",
+        "versus",
+        "better",
+        "best",
+        "most",
+        "between",
+        "among these",
+        "among which",
+    ]
+    return any(p in q for p in comparison_patterns)
+
+
+def extract_multiple_projects_from_query(query: str) -> list:
+    """Extract all project names mentioned in a query"""
+    from project_links import detect_project_from_text
+    
+    q_lower = query.lower()
+    projects = []
+    
+    # Common project names
+    project_keywords = [
+        "altura", "altitude", "pristine", "shivabagh", "laxmi govind",
+        "krishna kuteera", "mahalaxmi", "bmk sky villa", "expertise enclave",
+        "durga mahal", "vikram", "synergy", "land trades project 1",
+        "land trades project 2", "land trades project 3", "esha", "olivé",
+        "atria", "arjun", "aryan", "akshar enclave"
+    ]
+    
+    for proj in project_keywords:
+        if proj in q_lower:
+            # Normalize the name
+            parts = proj.split()
+            first_letter = (parts[0][0].upper() + parts[0][1:]) if parts else ""
+            normalized = " ".join([first_letter] + [p.capitalize() for p in parts[1:]])
+            if normalized not in projects:
+                projects.append(normalized)
+    
+    return projects
+
+
+def rewrite_comparison_query(query: str, projects: list) -> str:
+    """Rewrite a comparison query to emphasize comparison and recommendation"""
+    if not projects:
+        return query
+    
+    projects_str = ", ".join(projects)
+    return f"Compare these projects: {projects_str}. Which one is best? Provide specific reasoning for your recommendation based on location, amenities, investment potential, and connectivity."
 
 
 def rewrite_query_with_project(query: str, session: dict):
@@ -599,13 +670,18 @@ def format_project_images_answer(project_name: str, image_type: str = "gallery",
 def build_context(docs: list[dict]) -> str:
     blocks = []
     for d in docs:
+        content = d.get('content', '')
+
+        if any(x in content.lower() for x in ["not specified", "no specific details"]):
+            continue
+
         blocks.append(
             f"""Title: {d.get('title', '')}
 Section: {d.get('section_title', d.get('section', ''))}
 Page Type: {d.get('page_type', '')}
 
 Content:
-{d.get('content', '')}
+{content}
 
 Source:
 {d.get('url', '')}"""
@@ -723,7 +799,7 @@ def plan_retrieval_queries(user_query: str, project_name: str | None = None) -> 
         "intent": intent,
         "answer_style": infer_answer_style(q),
         "must_have_terms": must_have_terms,
-        "expanded_queries": deduped[:2],
+        "expanded_queries": deduped[:1],
         "explicit_contact_request": explicit_contact_request,
         "needs_comparison": needs_comparison,
     }
@@ -748,36 +824,55 @@ def generate_llm_answer(user_query, docs, session, project_name=None):
     # Determine focus based on query type
     q_norm = normalize(user_query)
     focus_instructions = ""
+    suppress_boilerplate = detect_only_keyword(user_query)
+    is_comparison = detect_comparison_query(user_query)
+    is_loan_query = any(w in q_norm for w in ["loan", "finance", "financing", "bank", "emi", "interest rate"])
     
-    if any(w in q_norm for w in ["loan", "finance", "financing", "bank", "emi"]):
-        focus_instructions = "\n**ANSWER FOCUS**: This is a LOAN/FINANCE question. Prioritize loan information, bank partnerships, EMI details, and financing options from the knowledge base."
-    elif any(w in q_norm for w in ["roi", "return", "rental", "yield", "appreciation", "investment"]):
-        focus_instructions = "\n**ANSWER FOCUS**: This is an INVESTMENT/ROI question. Prioritize ROI data, rental yields, growth rates, 5-year returns, and investment potential from the knowledge base."
+    if is_comparison:
+        focus_instructions = "\n**ANSWER FOCUS**: This is a COMPARISON query. Provide a SPECIFIC recommendation with clear reasoning. DO NOT just list projects—recommend which one is BEST and explain why."
+    elif is_loan_query:
+        focus_instructions = "\n**ANSWER FOCUS**: This is a LOAN/FINANCE question. Prioritize exact loan information, bank partnerships, EMI details, and financing options. Provide SPECIFIC numbers if available."
+    elif any(w in q_norm for w in ["roi", "return", "rental", "yield", "appreciation", "investment", "5 year", "growth"]):
+        focus_instructions = "\n**ANSWER FOCUS**: This is an INVESTMENT/ROI question. Prioritize SPECIFIC ROI percentages, rental yields (%), growth rates (%), 5-year returns, and investment potential. Provide exact numbers from the knowledge base."
     elif any(w in q_norm for w in ["amenity", "amenities", "facility", "facilities", "feature"]):
-        focus_instructions = "\n**ANSWER FOCUS**: This is an AMENITIES question. List and describe all amenities clearly from the knowledge base."
+        focus_instructions = "\n**ANSWER FOCUS**: This is an AMENITIES question. List and describe all amenities clearly from the knowledge base. Be specific and detailed."
     elif any(w in q_norm for w in ["specification", "specifications", "configuration", "bhk", "unit", "floor", "size"]):
-        focus_instructions = "\n**ANSWER FOCUS**: This is a SPECIFICATIONS/LAYOUT question. Focus on unit types, configurations, sizes, and specifications."
+        focus_instructions = "\n**ANSWER FOCUS**: This is a SPECIFICATIONS/LAYOUT question. Focus on unit types, exact configurations, sizes in SQFT, and detailed specifications."
     elif any(w in q_norm for w in ["location", "address", "connectivity", "near", "nearby", "distance"]):
-        focus_instructions = "\n**ANSWER FOCUS**: This is a LOCATION/CONNECTIVITY question. Focus on exact location, address, nearby landmarks, and connectivity."
+        focus_instructions = "\n**ANSWER FOCUS**: This is a LOCATION/CONNECTIVITY question. Focus on EXACT location, full address, specific nearby landmarks, and exact distances."
+    else:
+        # ✅ FOR GENERAL PROJECT QUERIES: DO NOT include loan information - EVER
+        focus_instructions = "\n**ANSWER FOCUS**: This is a GENERAL PROJECT query. Answer ONLY about project highlights, amenities, locations, connectivity, and specifications from the knowledge base. ABSOLUTELY DO NOT include any loan/financing/investment/banking information - NEVER add 'Loan Information' section or financing suggestions unless the user explicitly asks about loans. Structure your answer around the actual project details only."
     
+    boilerplate_instruction = ""
+    if suppress_boilerplate:
+        boilerplate_instruction = "\n**CRITICAL**: User asked for ONLY specific information. DO NOT add generic suggestions like 'You can also ask for floor plans' or 'contact support'. Answer ONLY what was asked."
+    
+    # ✅ ALWAYS add this for general queries - NEVER add loan sections
+    if not is_loan_query and not is_comparison and "loan" not in q_norm and "finance" not in q_norm and "invest" not in q_norm:
+        boilerplate_instruction += "\n**NEVER ADD**: Do NOT include a 'Loan Information' section, financing options, or banking details. Only provide the project information that is in the knowledge base."
+    
+
     prompt = f"""You are the Land Trades AI Assistant — a professional real estate consultant for Land Trades Builders & Developers, Mangalore.
 
-**CRITICAL: Use ONLY the provided Land Trades context. Do NOT invent facts or use generic information from other projects. If specific data for the requested project is in the knowledge base, use it. Do NOT make up amenities, specifications, or features.**
-Before answering, understand the exact user question and respond ONLY to that specific query. Do NOT include unrelated project details or general overviews.
-
-Stay focused on answering the current question while keeping previous context in mind.
+CRITICAL RULES FOR ALL RESPONSES:
+1. **ONLY use the KNOWLEDGE BASE provided.** Do NOT invent, fabricate, hallucinate, or generate any information.
+2. **Answer ONLY the user's specific question.** Do NOT add extra content, sections, or suggestions.
+3. **NEVER create a 'Loan Information' section for general project queries.** ONLY if user explicitly asks about loans/financing.
+4. **For general queries, if some details are not available in the knowledge base, do NOT mention that they are missing.** Simply ignore those points and answer only with the relevant details that are available.
+5. **Do NOT suggest options the user didn't ask for.**
 
 {history_text}
 
 **CURRENT QUESTION:**
-{user_query}{project_context}{focus_instructions}
+{user_query}{project_context}{focus_instructions}{boilerplate_instruction}
 
 **KNOWLEDGE BASE:**
 {context}
 
 **RULES:**
 
-PROJECT CLASSIFICATION
+PROJECT CLASSIFICATION (Ongoing Projects):
     Residential Projects:
     - Expertise Enclave (Moneky Stand, Jeppu)
     - Durga Mahal (Mannaguda Road Kudroli)
@@ -797,28 +892,30 @@ PROJECT CLASSIFICATION
     - Synergy (Yeyyadi, Mangaluru)
     - Land Trades Project 2 (Hampankatta, Mangalore)
 
-* while listing the projects include land trades project 1,2,3 also 
-* CRITICAL: Answer the specific question asked. Do not give generic project overview unless explicitly asked.
-* Answer the SPECIFIC question—don't list all projects unless explicitly asked.
+* while listing the projects include land trades project 1,2,3 also     
+* Answer from knowledge base - never hallucinate
 * For Yes/No questions, start with a short direct answer like "Yes" or "No".
+* Use **bold** for project names, headings, and key numbers, and use bullet points instead of long paragraphs.
 * Use standard Markdown lists with "-" when listing items.
 * Put each list item on a separate line.
-* Never place multiple list items in one line.
 * When listing project names, include the location in brackets  
   – Example: **Altitude (Bendoorwell, Mangalore)**
-* **CONTEXT PRESERVATION**: If this question is about a project mentioned earlier in our conversation, continue discussing that project unless the user asks about a different one.
+* **CONTEXT PRESERVATION**: If this question is about a project mentioned earlier in our conversation, continue discussing that project unless the user asks about a different topic or different project.
 * Provide clean, structured, and human-like explanations.
-* Answer strictly from the extracted context and omit any mention of missing or unspecified information.
-* Use **bold** for project names, headings, and key numbers, and use bullet points instead of long paragraphs.
+* For general queries, answer only with the details available in the extracted context and silently skip unavailable points.
 * If the user asks for floor plans, galleries, or images about a project we discussed, remember which project it is.
 * For investment, booking/loan queries, Answer from context first, then optionally suggest contacting support.
 * Do not say, “Unfortunately, the provided context does not have the details.” Instead, answer using the available data in the context that is relevant to the user’s question.
 * Do NOT add "data missing" unless directly required.
 * Be conversational but professional.
-* If user asks about:
-  Expertise Enclave, Durga Mahal, Altitude, Laxmi Govind, Krishna Kuteera, Mahalaxmi, BMK Sky Villa, Pristine, Shivabagh, Altura, Vikram, Synergy
-  → You may suggest:
-  "You can also ask for floor plans or gallery images."
+* If the user asks about:
+  Expertise Enclave, Durga Mahal, Altitude, Laxmi Govind, Krishna Kuteera, Mahalaxmi, BMK Sky Villa, Pristine, Shivabagh, Altura, Vikram, Synergy  
+  → You may suggest:  
+  "You can also ask for floor plans or gallery images [and project info]" (mention project info only if it is not already included in the response)
+* **FOR COMPARISON QUERIES**: When comparing projects, provide a clear recommendation with specific reasoning for why one is better for the user's needs.
+* **FOR "ONLY" QUERIES**: Comply strictly - NO boilerplate, NO suggestions, NO contact info
+* **FOR GENERAL PROJECT QUERIES**: Do NOT add loan/financing info unless explicitly asked
+* Never say "No specific details available", "not explicitly mentioned", or similar phrases for general queries. Just answer from the available data.
 
 Answer:
 """
@@ -826,34 +923,63 @@ Answer:
     try:
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
-            messages=[{"role": "user", "content": prompt}],
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
             temperature=0.3,
-            max_tokens=550,
+            max_tokens=500,
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
         error_msg = str(e)
+        print(f"💥 DEBUG - Full Error: {error_msg}")
         if "403" in error_msg or "Access denied" in error_msg:
             return "❌ API Authentication Error: Your Groq API key is invalid or expired. Please set a valid GROQ_API_KEY environment variable."
-        elif "429" in error_msg:
-            return "⚠️  Rate Limit: Too many requests. Please wait a moment and try again."
+        elif "404" in error_msg:
+            return "❌ Model Error: The Groq model 'llama-3.3-70b-versatile' is not available. Please contact support or check API status at status.groq.com."
+        elif "429" in error_msg or "rate limit" in error_msg.lower():
+            return "⚠️  Rate Limited: Too many requests. Please wait a moment and try again."
+        elif "connection" in error_msg.lower() or "timeout" in error_msg.lower() or "qdrant" in error_msg.lower():
+            return "⚠️  Connection Error: Temporary service issue. Please try again in a moment."
         else:
             print(f"❌ LLM Error: {error_msg}")
-            return f"❌ Error generating response: {error_msg[:100]}"
+            return f"❌ Error generating response: {error_msg[:80]}"
 
 
 def retrieve_with_planner(original_query: str, project: str | None) -> tuple[list[dict], dict[str, Any]]:
     planner = plan_retrieval_queries(original_query, project)
     all_docs = []
     seen_ids = set()
-
-    for search_query in planner.get("expanded_queries", [original_query])[:2]:
-        docs = retrieve(search_query, top_k=4)
-        for doc in docs:
-            doc_id = doc.get("id") or f"{doc.get('url', '')}|{doc.get('section_title', '')}|{hash(doc.get('content', ''))}"
-            if doc_id not in seen_ids:
-                seen_ids.add(doc_id)
-                all_docs.append(doc)
+    
+    # ✅ FOR GENERAL PROJECT OVERVIEW QUERIES: Do targeted multi-section searches
+    is_general_overview = (
+        re.search(r"tell\s+(?:me\s+)?about.*project", original_query, re.IGNORECASE) or
+        re.search(r"about.*project\s*$", original_query, re.IGNORECASE)
+    )
+    
+    if is_general_overview and project:
+        # Do THREE targeted searches to get highlights + amenities + connectivity
+        targeted_searches = [
+            f"{project} highlights features key points",
+            f"{project} amenities facilities services",
+            f"{project} connectivity location nearby distance",
+        ]
+        for search_query in targeted_searches:
+            docs = retrieve(search_query, top_k=4)
+            for doc in docs:
+                doc_id = doc.get("id") or f"{doc.get('url', '')}|{doc.get('section_title', '')}|{hash(doc.get('content', ''))}"
+                if doc_id not in seen_ids:
+                    seen_ids.add(doc_id)
+                    all_docs.append(doc)
+    else:
+        # Standard retrieval for other queries
+        for search_query in planner.get("expanded_queries", [original_query])[:1]:
+            docs = retrieve(search_query, top_k=7)
+            for doc in docs:
+                doc_id = doc.get("id") or f"{doc.get('url', '')}|{doc.get('section_title', '')}|{hash(doc.get('content', ''))}"
+                if doc_id not in seen_ids:
+                    seen_ids.add(doc_id)
+                    all_docs.append(doc)
 
     final_docs = rerank(original_query, all_docs, top_k=6) if all_docs else []
     return final_docs, planner
@@ -861,6 +987,10 @@ def retrieve_with_planner(original_query: str, project: str | None) -> tuple[lis
 
 def maybe_append_soft_contact_cta(answer: str, query: str, project: str | None) -> str:
     q = normalize(query)
+    
+    # Respect "only" keyword - don't add boilerplate
+    if detect_only_keyword(query):
+        return answer
 
     should_add = any(x in q for x in [
         "book", "booking", "buy", "purchase", "invest", "investment",
@@ -875,6 +1005,39 @@ def maybe_append_soft_contact_cta(answer: str, query: str, project: str | None) 
         "pricing, booking support, or loan assistance."
     )
     return answer + suffix
+
+def clean_final_answer(answer: str) -> str:
+    bad_phrases = [
+        "not specified",
+        "no specific details available",
+        "information not available",
+        "not available in the dataset",
+        "no specific loan details available",
+    ]
+
+    lines = answer.split("\n")
+    cleaned = []
+
+    skip_next_empty_header = False
+
+    for i, line in enumerate(lines):
+        lower = line.lower().strip()
+
+        # Remove bad lines
+        if any(bp in lower for bp in bad_phrases):
+            continue
+
+        # Remove empty headers like "Amenities:" if no content after
+        if line.strip().endswith(":"):
+            # Check next line
+            if i + 1 < len(lines):
+                next_line = lines[i + 1].strip().lower()
+                if any(bp in next_line for bp in bad_phrases):
+                    continue
+
+        cleaned.append(line)
+
+    return "\n".join(cleaned)
 
 def generate_answer(query, session_id="default"):
     session = sessions[session_id]
@@ -998,7 +1161,17 @@ def generate_answer(query, session_id="default"):
             "images": [],
         }
 
-    rewritten_query = rewrite_query_with_project(query, session)
+    # Handle comparison queries specially
+    is_comparison = detect_comparison_query(query)
+    if is_comparison:
+        mentioned_projects = extract_multiple_projects_from_query(query)
+        if len(mentioned_projects) >= 2:
+            rewritten_query = rewrite_comparison_query(query, mentioned_projects)
+        else:
+            rewritten_query = query
+    else:
+        rewritten_query = rewrite_query_with_project(query, session)
+    
     docs, planner = retrieve_with_planner(rewritten_query, project)
 
     if not docs:
@@ -1021,6 +1194,7 @@ def generate_answer(query, session_id="default"):
         }
 
     answer = generate_llm_answer(rewritten_query, docs, session, project)
+    answer = clean_final_answer(answer)
     answer = maybe_append_soft_contact_cta(answer, query, project)
 
     if project:
@@ -1074,3 +1248,4 @@ if __name__ == "__main__":
             for img in result["images"]:
                 print(f"- {img.get('label', 'Image')}")
                 print(f"  {img.get('url', '')}")
+
